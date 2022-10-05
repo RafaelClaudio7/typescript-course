@@ -32,4 +32,4 @@ function sum (x: number, y: number) {
 console.log(sum(3, 5));
 
 
-// When the type is (n) that's because it couldn't place a type for the attribute
+// When the type is (any) that's because it couldn't place a type for the attribute
