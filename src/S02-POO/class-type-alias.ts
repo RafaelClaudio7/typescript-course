@@ -1,4 +1,3 @@
-/* eslint-disable */
 type TipoPessoa = {
   nome: string;
   sobrenome: string;

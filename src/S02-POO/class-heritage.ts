@@ -1,4 +1,3 @@
-/* eslint-disable */
 class Company {
   public readonly name: string;
   protected readonly cnpj: string;

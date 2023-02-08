@@ -1,4 +1,3 @@
-/* eslint-disable */
 export class Carro {
   private readonly motor: Motor = new Motor();
 
@@ -36,7 +35,6 @@ export class Motor {
     console.log('O motor está desligado...');
   }
 }
-
 
 const carro = new Carro();
 carro.ligar();

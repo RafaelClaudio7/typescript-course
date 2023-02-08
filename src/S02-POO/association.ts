@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 export class Escritor {
   private _ferramenta: Ferramenta | null = null;
 

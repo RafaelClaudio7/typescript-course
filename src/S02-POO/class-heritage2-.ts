@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 export class Pessoa {
   public nome: string;
   public sobrenome: string;
@@ -27,22 +25,26 @@ export class Pessoa {
 }
 
 export class Aluno extends Pessoa {
-    public sala: string;
+  public sala: string;
 
-    constructor(nome: string, sobrenome: string, idade: number, cpf: string, sala: string) {
-        super(nome, sobrenome, idade, cpf);
-        this.sala = sala;
-    }
+  constructor(
+    nome: string,
+    sobrenome: string,
+    idade: number,
+    cpf: string,
+    sala: string,
+  ) {
+    super(nome, sobrenome, idade, cpf);
+    this.sala = sala;
+  }
 
-    getNomeCompleto(): string {
-        console.log('Doing something before');
-        return super.getNomeCompleto();
-    }
+  getNomeCompleto(): string {
+    console.log('Doing something before');
+    return super.getNomeCompleto();
+  }
 }
 
-const aluno = new Aluno('Rafael', 'Tula', 23, '146.101.776-92', '0001')
+const aluno = new Aluno('Rafael', 'Tula', 23, '146.101.776-92', '0001');
 console.log(aluno.getNomeCompleto());
 
-export class Cliente extends Pessoa {
-
-}
+export class Cliente extends Pessoa {}
